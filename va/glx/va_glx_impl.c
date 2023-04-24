@@ -521,6 +521,7 @@ static int create_tfp_surface(VADriverContextP ctx, VASurfaceGLXP pSurfaceGLX)
         GLX_RED_SIZE,           8,
         GLX_GREEN_SIZE,         8,
         GLX_BLUE_SIZE,          8,
+        GLX_ALPHA_SIZE,         8,
         /*
          * depth test isn't enabled in the implementaion of VA GLX,
          * so depth buffer is unnecessary. However to workaround a
